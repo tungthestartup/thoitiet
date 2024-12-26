@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function fetchWeatherData() {
     const apiKey = "2dad9baf8d4368d2ab19f7dec7d0617d";
-    const city = "Perth";
+    const city = "Thanh Hoa";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
